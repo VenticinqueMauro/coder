@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/ab487c5b2d.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Desafio 04</title>
+</head>
+<body>
+    <div class="containerAll">
+
+        <header class="header">
+            <nav class="desktop">
+                <input type="checkbox" id="menu" class="checkbox">
+                <label for="menu" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+
+                <ul class="menuDesk">
+                    <li><a href="/index.html">Inicio</a></li>
+                    <li><a href="/pages/productos.html">Productos</a></li>
+                    <li><a href="/pages/nosotros.html">Nosotros</a></li>
+                    <li><a href="/pages/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <img src="/img/N.png" alt="logo" class="logo">
+        </header>
+
+        <main class="main">
+
+            <div class="contact">
+
+                <div class="sectionLeft" data-aos="fade-up">
+                    <i class="fa-solid fa-circle-info"></i>
+                    <h2>Informacion de Contacto</h2>
+                    <div class="contactLeft">
+                        <a href="mailto:info@enecalzados.com"><i class="fa-regular fa-envelope"></i> info@enecalzados.com</a>
+                        <a href="https://wa.me/5493816160976" target="__blank"><i class="fa-brands fa-whatsapp"></i>+5493816160976</a>
+                        <a href="https://www.facebook.com/" target="__blank"><i class="fa-brands fa-facebook-f"></i>/enecalzados</a>
+                        <a href="https://www.instagram.com/" target="__blank"><i class="fa-brands fa-instagram"></i>/ene_calzados</a>
+                    </div>
+                </div>
+    
+                <div class="sectionRight" data-aos="fade-down">
+                    
+                    <form class="form" action="https://formspree.io/f/xjvlpegg"
+                    method="POST">
+                        <div class="formContainer">
+                            <input type="name" placeholder="Nombre" name="name">
+                        </div>
+                        <div class="formContainer">
+                            <input type="email" placeholder="E-mail" name="email">
+                        </div>
+                        <div class="formContainer"> 
+                            <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Escribe tu consulta Aqui!" class="textArea" name="message"></textarea><br>  
+                            <input type="submit" value="Enviar Mensaje" class="buttonContact">
+                        </div>
+                        
+                    </form>
+                </div>
+    
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="leftFooter">
+                <h2>Info</h2>
+                <h3>Compras por mayor y menor.</h3>
+                <h3>Envios a todo el pais!</h3>
+            </div>
+            <div class="centerFooter">
+                <img src="/img/Nblanco.png" alt="logo" class="logoF">
+            </div>
+            <div class="rightFooter">
+                <a href="mailto:info@enecalzados.com" ><i class="fa-solid fa-square-envelope"></i></a>
+                <a href="https://www.instagram.com/" target="__blank"><i class="fa-brands fa-instagram-square"></i></a>
+                <a href="https://twitter.com/" target="__blank"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="https://www.facebook.com/" target="__blank"><i class="fa-brands fa-facebook-square"></i></a>
+            </div>
+        </footer>
+        <a href="https://wa.me/5493816160976"><i class="fa-brands fa-whatsapp" id="btnWp"></i></a>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
